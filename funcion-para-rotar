@@ -13,4 +13,6 @@ def funcion_rota_direccion(lista, n, direccion):
         return lista[:]
 
 
-print(funcion_rota_direccion(lista, 3, direccion));
+print(lista)
+print(funcion_rota_direccion(lista, 2, "right"))
+print(funcion_rota_direccion(lista, 2, "left"))
